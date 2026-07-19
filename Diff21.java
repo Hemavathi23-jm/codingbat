@@ -1,7 +1,7 @@
 public class Diff21 {
     public int diff21(int n) {
   if(n>=21){
-    return (n-21)*2;
+    return (n-21)*2;//because if n is greater than 21 then we have to return double the absolute difference
   }
   else{
     int diff;
